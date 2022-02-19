@@ -1,4 +1,234 @@
-.App {
+/* Main Color: #0ca8ac */
+
+/* Navbar */
+#nav {
+  width: 100%;
+  height: 70px;
+  padding: 10px 30px;
+}
+
+
+#nav ul {
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 10px;
+}
+
+#nav li {
+  margin: 10px
+}
+
+#searchBar {
+  border-radius: 15px;
+  height: auto;
+  border: lightgray solid 1px;
+  background-color: transparent;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  width: 200px;
+}
+
+#searchBarField {
+  height: 20px;
+  border: 0px;
+  border-color: transparent;
+  margin: 0px 20px;
+  box-shadow: none;
+}
+
+
+
+/* Body */
+hr {
+  margin: 0px 40px
+}
+
+.body {
+  margin: 30px 100px;
+  width: 100%;
+}
+
+/* breadcrumbs */
+#bcNav {
+  margin: 10px;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+
+#bcNav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.initBreadcrumb {
+  padding: 10px 30px;
+  color: gray;
+}
+
+.ffBreadcrumb {
+  padding: 10px 30px;
+  border-left: 1px solid;
+  border-color: gray;
+  color: gray;
+}
+
+.activeBreadcrumb {
+  padding: 10px 30px;
+  border-left: 1px solid;
+  border-color: gray;
+  color: black;
+  font-weight: bold;
+  }
+
+/* Product Page */
+
+#mainPhoto {
+  border-radius: 20px;
+  height: auto;
+  width: max-content;
+}
+
+.extraPhoto {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+#details {
+  margin: 0px 30px
+}
+
+.selectionButton {
+  color: black;
+  outline: lightgray solid 1px;
+  padding: 10px;
+  box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+  min-width: 200px;
+}
+
+.activeSelectionButton {
+  color: white;
+  background-color: #0ca8ac;
+  outline: lightgray solid 1px;
+  padding: 10px;
+  box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+  min-width: 200px;
+}
+
+.sizeButton {
+  color: black;
+  outline: 0px;
+  
+  padding: 30px;
+}
+
+.sizeButtonSelected {
+  fill: #0ca8ac;
+  background-color: #0ca8ac;
+  color: white;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+#dropdown {
+  margin: 10px 0px;
+  text-align: start;
+  
+}
+
+#dropdown-selection {
+  background-color: transparent;
+  color: black;
+  text-align: start;
+  font-weight: bold;
+  width: 350px;
+}
+
+.dropdown-button {
+  background-color: transparent;
+  max-width: 10px;
+  text-align: end;
+}
+
+.dropDownItem {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 10px;
+  color: black;
+  border-radius: 20px;
+  width: 360px;
+
+}
+
+/* Related Foods */
+.relatedFoods {
+  justify-content: space-evenly;
+}
+.relatedPic {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.relatedCaption {
+  display: inline-block;
+  width: 300px;
+}
+
+/* Footer */
+#footer {
+  width: 100%;
+  background-color: #0ca8ac;
+  padding: 50px;
+}
+
+.footerFoodColumn {
+  text-align: center;
+  color: white;
+}
+
+#subscribeBar{
+  margin: 10px;
+}
+
+/* Modals */
+.modalHeader {
+  background-color: #0ca8ac;
+  color: white;
+}
+
+.modalPhoto {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.modalButton {
+  width: 100%;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin: 10px;
+
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +265,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
